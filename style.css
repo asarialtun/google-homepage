@@ -1,17 +1,29 @@
-ul li {
-	display:inline;
+.header {
+  display:inline;
+  float:right;
+}
+.toplist li {
+  display:inline;
+  float:left;
 }
 
-.toplist{
-	list-style-type: none;
-	
-	float:right;
+li a{
+  text-decoration:none;
 }
 
-.topicon{
-	display: inline-block;
+li a:hover{
+  text-decoration:underline;
 }
 
-#apps{
-	clip-path: inset(30px 10px 30px 10px);
+.footer{
+  clear:both;
+}
+
+.footer #leftside li{
+  display:inline;
+  float:left;
+}
+.footer #rightside li{
+  display:inline;
+  float:right;
 }
