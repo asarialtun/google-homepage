@@ -1,3 +1,12 @@
+
+html{
+  position:relative; 
+  min-height: 100%;
+}
+html,body{
+  margin:0;
+  padding:0;
+}
 .header {
   display:inline;
   float:right;
@@ -5,25 +14,129 @@
 .toplist li {
   display:inline;
   float:left;
+  color:#383838;
+  font-family:Arial;
+  font-size:14px;
+}
+#letter img{
+  border-radius: 100px;
 }
 
-li a{
+li a:link{
   text-decoration:none;
+  padding:8px;
+  color:#383838;
+  font-family:Arial;
+  font-size:14px;
+}
+
+li a:visited{
+  text-decoration:none;
+  padding:8px;
+  color:#383838;
+  font-family:Arial;
+  font-size:14px;
 }
 
 li a:hover{
   text-decoration:underline;
+  padding:8px;
+  color:#383838;
+  font-family:Arial;
+  font-size:14px;
 }
+
 
 .footer{
   clear:both;
+  background-color:#eaeaea;
+  height:40px;
+  padding:auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer #leftside li{
   display:inline;
   float:left;
+  white-space: nowrap;
+  text-decoration: none;
+  
 }
 .footer #rightside li{
   display:inline;
   float:right;
+  margin-right:30px;
+  white-space: nowrap;
+  text-decoration: none;
 }
+
+#main {
+  clear:both;
+  padding-top:109px;
+  height:233px;
+  width:586;
+  margin:auto;
+  padding-bottom:40px;
+  margin-bottom:40px;
+}
+
+#main img{
+  width:272px;
+  height:92px;
+  padding-left:146.5px;
+}
+
+#main input{
+  width:443px;
+  height:26px;
+  border-style: none;
+  font-size:18px;
+}
+#searchbox {
+  width:443px;
+  height:26px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  border:1px solid black;
+  margin-top:26px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#main #searchButton{
+ 
+}
+
+#main #luckyButton{
+
+}
+
+#buttonArea{
+  height:40px;
+  width:586px;
+  padding-top:20px;
+  margin-top:20px;
+  padding-left:156.5px;
+}
+
+.button{
+	display:block-inline;
+	height:34px;
+	background:#f2f2f2;
+	color:383838;
+	font-family:Arial;
+	font-weight: bold;
+	font-size:12px;
+	border-radius:2px;
+	text-align:center;
+	text-decoration:none;
+	padding-top:13px;
+	padding-left: 25px;
+  padding-right: 25px;
+	padding-bottom:13px;
+}
+
