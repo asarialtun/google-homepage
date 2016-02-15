@@ -1,0 +1,17 @@
+ul li {
+	display:inline;
+}
+
+.toplist{
+	list-style-type: none;
+	
+	float:right;
+}
+
+.topicon{
+	display: inline-block;
+}
+
+#apps{
+	clip-path: inset(30px 10px 30px 10px);
+}
